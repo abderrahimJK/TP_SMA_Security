@@ -4,27 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee7552b5-f078-4f2a-97bd-9114e9e0b1d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AES_Cryptography/agents/ClientAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AES_Cryptography/agents/ServerAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AES_Cryptography/containers/ClientContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AES_Cryptography/containers/MainContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AES_Cryptography/containers/ServerContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RSA_Cryptography/containers/ServerContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APDescription.txt" beforeDir="false" afterPath="$PROJECT_DIR$/APDescription.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MTPs-Main-Container.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MTPs-Main-Container.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AES_Cryptography/CryptoUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AES_Cryptography/GenerateRSAKeys.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AES_Cryptography/MainContainer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AES_Cryptography/SimpleContainer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AES_Cryptography/agents/Buyer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AES_Cryptography/agents/Seller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RSA_Cryptography/GenerateRSAKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RSA_Cryptography/GenerateRSAKeys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RSA_Cryptography/MainContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RSA_Cryptography/containers/MainContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RSA_Cryptography/SimpleContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RSA_Cryptography/containers/ClientContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RSA_Cryptography/agents/Buyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RSA_Cryptography/agents/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RSA_Cryptography/agents/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RSA_Cryptography/agents/Server.java" afterDir="false" />
+    <list default="true" id="ee7552b5-f078-4f2a-97bd-9114e9e0b1d0" name="Changes" comment="secure the message flow with AES cryptography">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,8 +141,23 @@
       <option name="presentableId" value="Default" />
       <updated>1681378452141</updated>
       <workItem from="1681378453418" duration="7098000" />
-      <workItem from="1681425210424" duration="4382000" />
+      <workItem from="1681425210424" duration="4763000" />
     </task>
+    <task id="LOCAL-00001" summary="secure the message flow with RSA cryptography">
+      <created>1681430006345</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681430006345</updated>
+    </task>
+    <task id="LOCAL-00002" summary="secure the message flow with AES cryptography">
+      <created>1681430028515</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681430028515</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,5 +165,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="secure the message flow with RSA cryptography" />
+    <MESSAGE value="secure the message flow with AES cryptography" />
+    <option name="LAST_COMMIT_MESSAGE" value="secure the message flow with AES cryptography" />
   </component>
 </project>
