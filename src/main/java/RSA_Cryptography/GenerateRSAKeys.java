@@ -8,6 +8,7 @@ import java.util.Base64;
 
 public class GenerateRSAKeys {
 
+
     public static void main(String[] args) throws NoSuchAlgorithmException {
         KeyPair keyPair = CryptoUtils.generateRSAKeys();
         PrivateKey privateKey = keyPair.getPrivate();
