@@ -1,3 +1,5 @@
+package AES_Cryptography;
+
 import jade.core.ProfileImpl;
 import jade.core.Runtime;
 import jade.wrapper.AgentContainer;

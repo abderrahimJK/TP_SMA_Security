@@ -1,3 +1,5 @@
+package RSA_Cryptography;
+
 import jade.core.ProfileImpl;
 import jade.core.Runtime;
 import jade.wrapper.AgentContainer;
@@ -16,10 +18,10 @@ public class SimpleContainer {
         AgentContainer container = runtime.createAgentContainer(profile);
         KeyPair keyPair = CryptoUtils.generateRSAKeys();
 
-        AgentController seller = container.createNewAgent("seller", "agents.Seller", new Object[]{
+        AgentController seller = container.createNewAgent("seller", "RSA_Cryptography.agents.Seller", new Object[]{
                 keyPair.getPrivate()
         });
-        AgentController buyer = container.createNewAgent("buyer", "agents.Buyer", new Object[]{
+        AgentController buyer = container.createNewAgent("buyer", "RSA_Cryptography.agents.Buyer", new Object[]{
                 keyPair.getPublic()
         });
         buyer.start();

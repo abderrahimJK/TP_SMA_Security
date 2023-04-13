@@ -1,4 +1,4 @@
-package agents;
+package AES_Cryptography.agents;
 
 import jade.core.Agent;
 import jade.core.behaviours.CyclicBehaviour;
